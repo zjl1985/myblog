@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "我的网站",
+    "description": "我的网站"
+  },
+  "user": {
+    "name": "妙蛙种子",
+    "avatar": "assets/img/head.jpg",
+    "email": "zjl198544@163.com"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "i18n": "main_navigation",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "我的主页",
+          "i18n": "我的主页",
+          "icon": "anticon anticon-dashboard",
+          "link": "/home/main",
+          "shortcut": false
+        }
+      ]
+    }
+  ]
+}
